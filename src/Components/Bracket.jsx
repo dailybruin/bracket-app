@@ -38,6 +38,8 @@ function Bracket() {
                 selectedData = Sabrina[1];
             } else if (editor === 'Una') {
                 selectedData = Una[1];
+            } else {
+                selectedData = Ira[1];
             }
             // selectedData = { Ira, Kai, Aaron, Connor, Sabrina, Una }[editor][1];
         } else {
@@ -53,6 +55,8 @@ function Bracket() {
                 selectedData = Sabrina[0];
             } else if (editor === 'Una') {
                 selectedData = Una[0];
+            } else {
+                selectedData = Ira[1];
             }
             // selectedData = { Ira, Kai, Aaron, Connor, Sabrina, Una }[editor][0];
         }

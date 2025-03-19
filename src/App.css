@@ -4,8 +4,10 @@
   }
 }
 .App {
-  width: 1205px
-} 
+  width: 1205px;
+  transform: scale(1);
+  transform-origin: 0 0;
+}
 /* Bracket container using floats */
 .Bracket {
   width: 100%;
@@ -51,11 +53,6 @@
 .sen-font {
   font-family: "Sen", sans-serif;
   font-style: normal;
-}
-
-.slot:hover {
-  border: 1px solid #7ebee4;
-  cursor: pointer;
 }
 
 .column {
